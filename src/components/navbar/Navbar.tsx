@@ -13,12 +13,13 @@ const Navbar = () => {
     <Stack
       justifyContent={"space-between"}
       borderRadius={"10px"}
-      sx={{ background: "#0E0F1C", width: "65px", flex: 1, height: '96%', p: "8px 0px"}}
+      sx={{ background: "#0E0F1C", width: "65px", flex: 1, height: '96%', p: "8px 0px", transform: 'translateY(-50%)'}}
       position={"fixed"}
+      top={'50%'}
     >
-      <Stack spacing={1.7}>
+      <Stack spacing={1.7} data-cy="navbar">
         <Button>
-          <PersonIcon fontSize="small" />
+          <PersonIcon fontSize="small" data-cy="button" />
         </Button>
         <Button>
           <NotificationsNoneIcon fontSize="small" />
