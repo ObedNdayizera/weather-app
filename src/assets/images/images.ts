@@ -1,5 +1,7 @@
-import background from './backhround.jpg';
+import background from './background.jpg';
+import profile from './profile.jpg';
 
 export default {
-    background
+    background,
+    profile
 }

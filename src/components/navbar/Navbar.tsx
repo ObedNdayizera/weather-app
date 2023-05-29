@@ -1,4 +1,4 @@
-import { Stack } from "@mui/material";
+import { Stack, Grid } from "@mui/material";
 import IconButton from '@mui/material/IconButton';
 import PersonIcon from "@mui/icons-material/Person";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
@@ -10,12 +10,11 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import PowerSettingsNewIcon from "@mui/icons-material/PowerSettingsNew";
 const Navbar = () => {
   return (
+    <Grid item height={'100%'}>
     <Stack
       justifyContent={"space-between"}
       borderRadius={"10px"}
-      sx={{ background: "#0E0F1C", width: "55px", flex: 1, height: '96%', p: "8px", transform: 'translateY(-50%)'}}
-      position={"fixed"}
-      top={'50%'}
+      sx={{ background: "#0E0F1C", width: "55px", flex: 1, height: '100%', p: "8px"}}
       data-cy={"navbar"}
     >
     <Stack spacing={0.7} >
@@ -47,6 +46,7 @@ const Navbar = () => {
       </IconButton>
     </Stack>
     </Stack>
+    </Grid>
   );
 };
 

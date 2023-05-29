@@ -1,12 +1,13 @@
-import { Navbar } from "./components";
+import { Grid } from "@mui/material";
+import { Header, Navbar } from "./components";
 
 function App() {
-
   return (
-    <div className="appContainer" >
-      <Navbar/>
-    </div>
-  )
+    <Grid p={2.5} container columnSpacing={2.5} className="appContainer">
+      <Navbar />
+      <Header />
+    </Grid>
+  );
 }
 
-export default App
+export default App;
