@@ -1,24 +1,17 @@
-import { Grid, Stack, Box, Typography } from "@mui/material";
-import { images } from '../../assets/images';
+import { Profile, Weather } from "../index";
+import { Grid, Stack } from "@mui/material";
 
 function Header() {
   return (
-    <Grid item>
-      <Stack spacing={2.5}>
-        <Box>
-          <img src={ images.profile }/>
-          <Box>
-            <Typography variant="body1" fontSize={12}>
-              Hi, Rango
-            </Typography>
-            <Typography variant="h6">
-              Mon, 15 May, 2023
-            </Typography>
-          </Box>
-        </Box>
-      </Stack>
-    </Grid>
-  )
+    <>
+      <Grid item>
+        <Stack spacing={1.5}>
+          <Profile />
+          <Weather />
+        </Stack>
+      </Grid>
+    </>
+  );
 }
 
-export default Header
+export default Header;
