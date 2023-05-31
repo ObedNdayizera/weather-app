@@ -8,41 +8,41 @@ import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import StarOutlineRoundedIcon from "@mui/icons-material/StarOutlineRounded";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import PowerSettingsNewIcon from "@mui/icons-material/PowerSettingsNew";
+
+import useStyles from '../../assets/styles/navbar';
+
+
 const Navbar = () => {
+  const classes = useStyles();
   return (
     <Grid item height={'100%'}>
-    <Stack
-      justifyContent={"space-between"}
-      borderRadius={"10px"}
-      sx={{ background: "#0E0F1C", width: "60px", flex: 1, height: '100%', p: "8px"}}
-      data-cy={"navbar"}
-    >
+    <Stack p={2} className={classes.icons}>
     <Stack spacing={0.7} >
       <IconButton aria-label="person-icon">
-          <PersonOutlineOutlinedIcon fontSize="small" />
+          <PersonOutlineOutlinedIcon className={classes.icon} fontSize="small" />
       </IconButton>
       <IconButton>
-          <NotificationsNoneIcon fontSize="small" />
+          <NotificationsNoneIcon className={classes.icon} fontSize="small" />
       </IconButton>
       <IconButton>
-          <WidgetsOutlinedIcon fontSize="small" />
+          <WidgetsOutlinedIcon className={classes.icon} fontSize="small" />
       </IconButton>
       <IconButton>
-          <ExploreOutlinedIcon fontSize="small" />
+          <ExploreOutlinedIcon className={classes.icon} fontSize="small" />
       </IconButton>
       <IconButton>
-          <LocationOnOutlinedIcon fontSize="small" />
+          <LocationOnOutlinedIcon className={classes.icon} fontSize="small" />
       </IconButton>
       <IconButton>
-          <StarOutlineRoundedIcon fontSize="small" />
+          <StarOutlineRoundedIcon className={classes.icon} fontSize="small" />
       </IconButton>
       <IconButton>
-          <SettingsOutlinedIcon fontSize="small" />
+          <SettingsOutlinedIcon className={classes.icon} fontSize="small" />
       </IconButton>
     </Stack>
     <Stack>
       <IconButton>
-          <PowerSettingsNewIcon fontSize="small" />
+          <PowerSettingsNewIcon className={classes.icon} fontSize="small" />
       </IconButton>
     </Stack>
     </Stack>

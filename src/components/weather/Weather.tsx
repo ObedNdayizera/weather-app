@@ -40,12 +40,13 @@ function weather() {
         </Box>
         <Box gap={1} sx={{ display: "flex", overflowX: 'scroll', width: '550px', boxShadow: ''}}>
           <Box
-            p={1.5}
             borderRadius={5}
             sx={{
               background: "#b8dfff",
               display: "grid",
               justifyItems: "center",
+              minWidth: "65px",
+              padding: '18px 0px'
             }}
             justifyContent={"center"}
             color="rgba(7, 10, 51)"
@@ -53,38 +54,19 @@ function weather() {
             <Typography fontSize={13} variant="body1" color="rgba(7, 10, 51)">
               09 am
             </Typography>
-            <CloudIcon fontWeight={'bold'} sx={{ color: "red", width: '20px' }} />
-            <Typography variant="body1" fontSize={13} fontWeight={'bold'} color="rgba(7, 10, 51)">
-              17
-            </Typography>
-          </Box>
-          
-          <Box
-            p={1.5}
-            borderRadius={5}
-            sx={{
-              background: "#b8dfff",
-              display: "grid",
-              justifyItems: "center",
-            }}
-            justifyContent={"center"}
-            color="rgba(7, 10, 51)"
-          >
-            <Typography fontSize={13} variant="body1" color="rgba(7, 10, 51)">
-              09 am
-            </Typography>
-            <CloudIcon fontWeight={'bold'} sx={{ color: "red", width: '20px' }} />
+            <CloudIcon  style={{ color: "#0E0F1C"}}/>
             <Typography variant="body1" fontSize={13} fontWeight={'bold'} color="rgba(7, 10, 51)">
               17
             </Typography>
           </Box>
           <Box
-            p={1.5}
             borderRadius={5}
             sx={{
               background: "#b8dfff",
               display: "grid",
               justifyItems: "center",
+              minWidth: "65px",
+              padding: '15px 0px'
             }}
             justifyContent={"center"}
             color="rgba(7, 10, 51)"
@@ -92,18 +74,19 @@ function weather() {
             <Typography fontSize={13} variant="body1" color="rgba(7, 10, 51)">
               09 am
             </Typography>
-            <CloudIcon fontWeight={'bold'} sx={{ color: "red", width: '20px' }} />
+            <CloudIcon  style={{ color: "#0E0F1C"}}/>
             <Typography variant="body1" fontSize={13} fontWeight={'bold'} color="rgba(7, 10, 51)">
               17
             </Typography>
           </Box>
           <Box
-            p={1.5}
             borderRadius={5}
             sx={{
               background: "#b8dfff",
               display: "grid",
               justifyItems: "center",
+              minWidth: "65px",
+              padding: '15px 0px'
             }}
             justifyContent={"center"}
             color="rgba(7, 10, 51)"
@@ -111,18 +94,19 @@ function weather() {
             <Typography fontSize={13} variant="body1" color="rgba(7, 10, 51)">
               09 am
             </Typography>
-            <CloudIcon fontWeight={'bold'} sx={{ color: "red", width: '20px' }} />
+            <CloudIcon  style={{ color: "#0E0F1C"}}/>
             <Typography variant="body1" fontSize={13} fontWeight={'bold'} color="rgba(7, 10, 51)">
               17
             </Typography>
           </Box>
           <Box
-            p={1.5}
             borderRadius={5}
             sx={{
               background: "#b8dfff",
               display: "grid",
               justifyItems: "center",
+              minWidth: "65px",
+              padding: '15px 0px'
             }}
             justifyContent={"center"}
             color="rgba(7, 10, 51)"
@@ -130,18 +114,19 @@ function weather() {
             <Typography fontSize={13} variant="body1" color="rgba(7, 10, 51)">
               09 am
             </Typography>
-            <CloudIcon fontWeight={'bold'} sx={{ color: "red", width: '20px' }} />
+            <CloudIcon  style={{ color: "#0E0F1C"}}/>
             <Typography variant="body1" fontSize={13} fontWeight={'bold'} color="rgba(7, 10, 51)">
               17
             </Typography>
           </Box>
           <Box
-            p={1.5}
             borderRadius={5}
             sx={{
               background: "#b8dfff",
               display: "grid",
               justifyItems: "center",
+              minWidth: "65px",
+              padding: '15px 0px'
             }}
             justifyContent={"center"}
             color="rgba(7, 10, 51)"
@@ -149,18 +134,19 @@ function weather() {
             <Typography fontSize={13} variant="body1" color="rgba(7, 10, 51)">
               09 am
             </Typography>
-            <CloudIcon fontWeight={'bold'} sx={{ color: "red", width: '20px' }} />
+            <CloudIcon  style={{ color: "#0E0F1C"}}/>
             <Typography variant="body1" fontSize={13} fontWeight={'bold'} color="rgba(7, 10, 51)">
               17
             </Typography>
           </Box>
           <Box
-            p={1.5}
             borderRadius={5}
             sx={{
               background: "#b8dfff",
               display: "grid",
               justifyItems: "center",
+              minWidth: "65px",
+              padding: '15px 0px'
             }}
             justifyContent={"center"}
             color="rgba(7, 10, 51)"
@@ -168,18 +154,19 @@ function weather() {
             <Typography fontSize={13} variant="body1" color="rgba(7, 10, 51)">
               09 am
             </Typography>
-            <CloudIcon fontWeight={'bold'} sx={{ color: "red", width: '20px' }} />
+            <CloudIcon  style={{ color: "#0E0F1C"}}/>
             <Typography variant="body1" fontSize={13} fontWeight={'bold'} color="rgba(7, 10, 51)">
               17
             </Typography>
           </Box>
           <Box
-            p={1.5}
             borderRadius={5}
             sx={{
               background: "#b8dfff",
               display: "grid",
               justifyItems: "center",
+              minWidth: "65px",
+              padding: '15px 0px'
             }}
             justifyContent={"center"}
             color="rgba(7, 10, 51)"
@@ -187,18 +174,19 @@ function weather() {
             <Typography fontSize={13} variant="body1" color="rgba(7, 10, 51)">
               09 am
             </Typography>
-            <CloudIcon fontWeight={'bold'} sx={{ color: "red", width: '20px' }} />
+            <CloudIcon  style={{ color: "#0E0F1C"}}/>
             <Typography variant="body1" fontSize={13} fontWeight={'bold'} color="rgba(7, 10, 51)">
               17
             </Typography>
           </Box>
           <Box
-            p={1.5}
             borderRadius={5}
             sx={{
               background: "#b8dfff",
               display: "grid",
               justifyItems: "center",
+              minWidth: "65px",
+              padding: '15px 0px'
             }}
             justifyContent={"center"}
             color="rgba(7, 10, 51)"
@@ -206,18 +194,19 @@ function weather() {
             <Typography fontSize={13} variant="body1" color="rgba(7, 10, 51)">
               09 am
             </Typography>
-            <CloudIcon fontWeight={'bold'} sx={{ color: "red", width: '20px' }} />
+            <CloudIcon  style={{ color: "#0E0F1C"}}/>
             <Typography variant="body1" fontSize={13} fontWeight={'bold'} color="rgba(7, 10, 51)">
               17
             </Typography>
           </Box>
           <Box
-            p={1.5}
             borderRadius={5}
             sx={{
               background: "#b8dfff",
               display: "grid",
               justifyItems: "center",
+              minWidth: "65px",
+              padding: '15px 0px'
             }}
             justifyContent={"center"}
             color="rgba(7, 10, 51)"
@@ -225,18 +214,19 @@ function weather() {
             <Typography fontSize={13} variant="body1" color="rgba(7, 10, 51)">
               09 am
             </Typography>
-            <CloudIcon fontWeight={'bold'} sx={{ color: "red", width: '20px' }} />
+            <CloudIcon  style={{ color: "#0E0F1C"}}/>
             <Typography variant="body1" fontSize={13} fontWeight={'bold'} color="rgba(7, 10, 51)">
               17
             </Typography>
           </Box>
           <Box
-            p={1.5}
             borderRadius={5}
             sx={{
               background: "#b8dfff",
               display: "grid",
               justifyItems: "center",
+              minWidth: "65px",
+              padding: '15px 0px'
             }}
             justifyContent={"center"}
             color="rgba(7, 10, 51)"
@@ -244,18 +234,19 @@ function weather() {
             <Typography fontSize={13} variant="body1" color="rgba(7, 10, 51)">
               09 am
             </Typography>
-            <CloudIcon fontWeight={'bold'} sx={{ color: "red", width: '20px' }} />
+            <CloudIcon  style={{ color: "#0E0F1C"}}/>
             <Typography variant="body1" fontSize={13} fontWeight={'bold'} color="rgba(7, 10, 51)">
               17
             </Typography>
           </Box>
           <Box
-            p={1.5}
             borderRadius={5}
             sx={{
               background: "#b8dfff",
               display: "grid",
               justifyItems: "center",
+              minWidth: "65px",
+              padding: '15px 0px'
             }}
             justifyContent={"center"}
             color="rgba(7, 10, 51)"
@@ -263,18 +254,19 @@ function weather() {
             <Typography fontSize={13} variant="body1" color="rgba(7, 10, 51)">
               09 am
             </Typography>
-            <CloudIcon fontWeight={'bold'} sx={{ color: "red", width: '20px' }} />
+            <CloudIcon  style={{ color: "#0E0F1C"}}/>
             <Typography variant="body1" fontSize={13} fontWeight={'bold'} color="rgba(7, 10, 51)">
               17
             </Typography>
           </Box>
           <Box
-            p={1.5}
             borderRadius={5}
             sx={{
               background: "#b8dfff",
               display: "grid",
               justifyItems: "center",
+              minWidth: "65px",
+              padding: '15px 0px'
             }}
             justifyContent={"center"}
             color="rgba(7, 10, 51)"
@@ -282,45 +274,7 @@ function weather() {
             <Typography fontSize={13} variant="body1" color="rgba(7, 10, 51)">
               09 am
             </Typography>
-            <CloudIcon fontWeight={'bold'} sx={{ color: "red", width: '20px' }} />
-            <Typography variant="body1" fontSize={13} fontWeight={'bold'} color="rgba(7, 10, 51)">
-              17
-            </Typography>
-          </Box>
-          <Box
-            p={1.5}
-            borderRadius={5}
-            sx={{
-              background: "#b8dfff",
-              display: "grid",
-              justifyItems: "center",
-            }}
-            justifyContent={"center"}
-            color="rgba(7, 10, 51)"
-          >
-            <Typography fontSize={13} variant="body1" color="rgba(7, 10, 51)">
-              09 am
-            </Typography>
-            <CloudIcon fontWeight={'bold'} sx={{ color: "red", width: '20px' }} />
-            <Typography variant="body1" fontSize={13} fontWeight={'bold'} color="rgba(7, 10, 51)">
-              17
-            </Typography>
-          </Box>
-          <Box
-            p={1.5}
-            borderRadius={5}
-            sx={{
-              background: "#b8dfff",
-              display: "grid",
-              justifyItems: "center",
-            }}
-            justifyContent={"center"}
-            color="rgba(7, 10, 51)"
-          >
-            <Typography fontSize={13} variant="body1" color="rgba(7, 10, 51)">
-              09 am
-            </Typography>
-            <CloudIcon fontWeight={'bold'} sx={{ color: "red", width: '20px' }} />
+            <CloudIcon  style={{ color: "#0E0F1C"}}/>
             <Typography variant="body1" fontSize={13} fontWeight={'bold'} color="rgba(7, 10, 51)">
               17
             </Typography>

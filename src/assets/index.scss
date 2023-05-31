@@ -1,9 +1,3 @@
-@import '@fontsource/roboto/300.css';
-@import '@fontsource/roboto/400.css';
-@import '@fontsource/roboto/500.css';
-@import '@fontsource/roboto/700.css';
-@import './colors.scss';
-
 body, html {
   font-family: roboto;
   background: url('./images/background.jpg');
@@ -14,6 +8,7 @@ body, html {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  color: #b7bfc6;
 }
 
 
@@ -21,7 +16,6 @@ body, html {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  color: $color;
 }
 
 .appContainer {
