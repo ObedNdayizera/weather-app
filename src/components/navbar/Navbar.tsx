@@ -1,6 +1,6 @@
 import { Stack, Grid } from "@mui/material";
 import IconButton from '@mui/material/IconButton';
-import PersonIcon from "@mui/icons-material/Person";
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import WidgetsOutlinedIcon from "@mui/icons-material/WidgetsOutlined";
 import ExploreOutlinedIcon from "@mui/icons-material/ExploreOutlined";
@@ -14,12 +14,12 @@ const Navbar = () => {
     <Stack
       justifyContent={"space-between"}
       borderRadius={"10px"}
-      sx={{ background: "#0E0F1C", width: "55px", flex: 1, height: '100%', p: "8px"}}
+      sx={{ background: "#0E0F1C", width: "60px", flex: 1, height: '100%', p: "8px"}}
       data-cy={"navbar"}
     >
     <Stack spacing={0.7} >
       <IconButton aria-label="person-icon">
-          <PersonIcon fontSize="small" />
+          <PersonOutlineOutlinedIcon fontSize="small" />
       </IconButton>
       <IconButton>
           <NotificationsNoneIcon fontSize="small" />
