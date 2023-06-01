@@ -7,7 +7,7 @@ const useStyles = makeStyles({
   },
   temperatures: {
     overflowX: "scroll",
-    width: "550px",
+    width: "670px",
     boxShadow: "",
     "&::-webkit-scrollbar": {
       display: "none",

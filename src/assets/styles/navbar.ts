@@ -7,7 +7,11 @@ const useStyles = makeStyles({
     background: "#0E0F1C",
     width: "60px",
     flex: 1,
-    height: "100%",
+    height: "94%",
+    position: 'fixed',
+    top: "50%",
+    left: "10px",
+    transform: "translateY(-50%)"
   },
   icon: { color: "#b7bfc6" },
 });
