@@ -1,10 +1,12 @@
-import React from 'react'
+import { Stack } from "@mui/material";
 
 function Chart() {
   return (
-    <div>
-      hkjhfdshajhfdskjahkjfhdsaljk
-    </div>
+    <>
+      <Stack>
+        
+      </Stack>
+    </>
   )
 }
 
