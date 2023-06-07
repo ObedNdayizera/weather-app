@@ -12,13 +12,19 @@ const useStyles = makeStyles({
     },
 
     card: {
-        border: '2px dashed #b7bfc6',
         cursor: 'pointer'
     },
 
     cardContent: {
         width: '140px',
         textAlign: 'center',
+    },
+
+    iconButton: {
+      '&:hover': {
+        backgroundColor: 'red',
+      },
+  
     }
 });
 

@@ -4,7 +4,7 @@ const useStyles = makeStyles({
   icons: {
     justifyContent: "space-between",
     borderRadius: "10px",
-    background: "#0E0F1C",
+    background: "#121321",
     width: "60px",
     flex: 1,
     height: "94%",

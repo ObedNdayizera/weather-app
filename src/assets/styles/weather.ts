@@ -2,7 +2,7 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles({
   container: {
-    background: "#0E0F1C",
+    background: "#121321",
     borderRadius: "25px",
   },
   temperatures: {
