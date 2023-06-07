@@ -1,4 +1,4 @@
-import { Profile, Weather, Chart } from "../index";
+import { Profile, Weather, Chart, Cities } from "../index";
 import { Grid, Stack } from "@mui/material";
 
 function Header() {
@@ -9,6 +9,7 @@ function Header() {
           <Profile />
           <Weather />
           <Chart />
+          <Cities />
         </Stack>
       </Grid>
     </>

@@ -13,7 +13,7 @@ function weather() {
         spacing={2.5}
         className={classes.container}
       >
-        <Box gap={9} sx={{ display: "flex" }}>
+        <Box gap={8} sx={{ display: "flex" }}>
           <img style={{ marginTop: "-25px" }} width={110} src={images.sun} />
           <Box>
             <Typography variant="h5">Berlin</Typography>
