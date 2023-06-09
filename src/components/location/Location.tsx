@@ -1,11 +1,15 @@
-import { Seach } from '..'
+import { Stack } from '@mui/material';
+import { SearchInput, SelectInput } from '..';
 
 function Location() {
   return (
     <>
-    <Seach/>
+      <Stack direction={'row'} gap={2} height={'100%'}>
+        <SearchInput />
+        <SelectInput />
+      </Stack>
     </>
-  )
+  );
 }
 
-export default Location
+export default Location;
